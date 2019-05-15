@@ -1,5 +1,4 @@
 const withTypescript = require("@zeit/next-typescript");
-const withCss = require("@zeit/next-css");
 const withTM = require("next-transpile-modules");
 
 module.exports = withTypescript(
