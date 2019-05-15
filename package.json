@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build:server": "lerna run build --scope={@codeponder/common,@codeponder/server}",
-    "build:web": "lerna run build --scope={@codeponder/ui,@codeponder/common,@codeponder/web}"
+    "dev": "cd packages/shell && yarn dev",
+    "build": "lerna run build --scope={@monorepo/shell}"
   },
   "workspaces": {
     "packages": [
@@ -11,8 +11,5 @@
   },
   "devDependencies": {
     "lerna": "3.10.6"
-  },
-  "resolutions": {
-    "graphql": "14.0.2"
   }
 }
